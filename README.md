@@ -1,0 +1,2 @@
+# alure
+cypress-reports
