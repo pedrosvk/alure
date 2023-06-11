@@ -1,3 +1,5 @@
+# alure
+cypress-reports
 # cy-reporters
 
 ## Cypress Mochawesome Reporter
