@@ -22,7 +22,7 @@ jobs:
                   path: cypress/reports/html
                   retention-days: 30
             - name: Slack Notification
-              uses: rtCamp/action-slack-notify@v3
+              uses: rtCamp/action-slack-notify@v2
               env:
                   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
                   SLACK_USERNAME: pedrosvk
